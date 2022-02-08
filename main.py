@@ -11,7 +11,7 @@ field_drawer.hideturtle()
 def draw_gameboard():
   wn.tracer(False)
   field_drawer.pencolor("light gray")
-  size = 18
+  size = 15
   for j in range(-10,11,1):
     for i in range(-10,11,1):
       draw_tile(size, find_xy(size, (i,j)))
